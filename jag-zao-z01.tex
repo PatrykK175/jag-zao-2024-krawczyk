@@ -1,0 +1,39 @@
+\documentclass{article}
+\renewcommand{\thesubsection}{\thesection.\alph{subsection}}
+\usepackage{titlesec}
+\titleformat{\subsection} {\normalfont\fontsize{14}{17}\selectfont}{\thesubsection}{1em}{}
+\usepackage{graphicx} % Required for inserting images
+\usepackage[T1]{fontenc}
+\usepackage{amsmath, amssymb}
+
+\title{jag-zao-z01}
+\author{Patryk Krawczyk}
+\date{March 2024}
+
+\begin{document}
+
+\maketitle
+
+\section{Zbadaj ponizsze formalne przedstawienia zbiorów, aby zrozumieć, jakie elementy zawierają. \newline Dla kazdego zbioru napisz krótki nieformalny opis w języku potocznym}
+\subsection{\{1,3,5,7,...\} 
+\newline Zbiór składa się z liczb nieparzystych należących do zbioru liczb naturalnych }
+\subsection{\{...,-4,-2,0,2,4,...\} 
+\newline Zbiór składa się z liczb parzystych należących do zbioru liczb całkowitych }
+\subsection{\{n | n = 2 * m dla pewnego m należącego do $\mathbb{N}$ \}
+\newline Zbiór składa się z liczb parzystych} 
+\subsection{\{n | n = 2 * m dla pewnego m należącego do $\mathbb{N}$, oraz n = 3 * k dla pewnego k z $\mathbb{N}$\}
+\newline Zbiór składa się z liczb naturalnych podzielnych przez liczbę 2 oraz 3} 
+\subsection{\{w | w jest słowem złożonym z zer i jedynek i w jest równe odwróceniu w\}
+\newline Zbiór składa się z liczb naturalnych w zakresie 0 - 1}
+\subsection{\{n | n jest liczbą całkowitą i n = n + 1\}
+\newline Jest to zbiór pusty}
+
+\newpage
+\section{Zapisz w formalny sposób definicje następujących zbiorów}
+\subsection{zbiór zawierający liczby 1, 10, 100 - \{1,10,100\}} 
+\subsection{zbiór zawierający wszystkie liczby całkowite większe niż 5 - \{n $\in$ $\mathbb{Z}$ | n > 5\}} 
+\subsection{zbiór zawierający wszystkie liczby naturalne mniejsze niż 5 - \{n $\in$ $\mathbb{N}$ | n < 5\}} 
+\subsection{zbiór zawierający słowo aba - \{"aba"\}}
+\subsection{zbiór zawierający słowo puste - \{\( \varepsilon \)\}}
+\subsection{zbiór niezawierający zupełnie nic - \( \emptyset \)}
+\end{document}
